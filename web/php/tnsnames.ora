@@ -1,0 +1,1620 @@
+##########################################################
+##                                                      ##
+##        TNSNames.ora utilizado na Thomson		##
+##						        ##
+##########################################################
+#							 #
+#      Ultima atualização: José Valdézio - 31/08/14      #
+##########################################################
+##########################################################
+##########################################################
+
+##########################################################
+##       Instance do EBS UTF-8 Oracle 10.2.0.3.0	##
+##########################################################
+
+orq1116a=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=c899jhugtmdb.int.thomsonreuters.com)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME = orq1116a.int.thomsonreuters.com)))
+
+APLOC121 =
+  (DESCRIPTION =
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)(HOST = 10.197.66.83)(PORT = 1521)
+      )
+    )
+    (CONNECT_DATA=(SID = APLOC121)
+    )
+  )
+
+
+##########################################################
+##    Instance Tedesco - Produção Oracle 11.2.0.1.0	##
+##########################################################
+
+CEDAE =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.11.147)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = CEDAE)
+    )
+  )
+
+
+##########################################################
+##    Instance Tedesco - Produção Oracle 11.2.0.1.0	##
+##########################################################
+
+CSF =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.11.147)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = CSF)
+    )
+  )
+
+
+##########################################################
+##   Instance da Danfoss Produção Oracle 9.2.0.7.0	##
+##########################################################
+
+DANFOSS =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = dkdn01as46)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = DFSPROD)
+    (SERVER=DEDICATED)
+    )
+  )
+
+
+##########################################################
+##   Instance da Danfoss Qualidade Oracle 9.2.0.7.0	##
+##########################################################
+
+DANFOSS_TESTE =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = dkdn01as46)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = DFSTEST)
+    (SERVER=DEDICATED)
+    )
+  )
+
+
+##########################################################
+##     Instance de Demonstração - Oracle 11.2.0.3.0     ##
+##########################################################
+
+DEMO =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.42)(PORT = 1520))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DEMO)
+    )
+  )
+
+
+##########################################################
+##     Instance de Demonstração - Oracle 11.2.0.3.0     ##
+##########################################################
+
+DEMOEBS =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.42)(PORT = 1523))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DEMOEBS)
+    )
+  )
+
+
+##########################################################
+##   Instance de Demo Internacional Oracle 11.2.0.3.0   ##
+##########################################################
+
+DEMOINT =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.42)(PORT = 1524))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DEMOINT)
+    )
+  )
+
+
+##########################################################
+##     Instance de Demonstração - Oracle 11.2.0.3.0     ##
+##########################################################
+
+DEMOSAP =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.42)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DEMOSAP)
+    )
+  )
+
+
+##########################################################
+##        Instance de Serviços Oracle 11.2.0.4.0        ##
+##########################################################
+
+DESENV11 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.77)(PORT = 1150))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DESENV11)
+    )
+  )
+
+
+##########################################################
+##        Instance de Serviços Oracle 11.2.0.4.0        ##
+##########################################################
+
+DESENV11UTF =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.77)(PORT = 1152))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DESENV11UTF)
+    )
+  )
+
+
+##########################################################
+##      Instance Desenvolvimento Oracle 9.2.0.8.0       ##
+##########################################################
+
+DEV9 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.90)(PORT = 1550))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = dev9)
+    )
+  )
+
+
+##########################################################
+##      Instance Desenvolvimento Oracle 10.2.0.4.0      ##
+##########################################################
+
+DEV10 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.90)(PORT = 1050))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = dev10)
+    )
+  )
+
+
+##########################################################
+##      Instance Desenvolvimento Oracle 10.2.0.4.0      ##
+##########################################################
+
+DEV10UTF =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.90)(PORT = 1052))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = dev10utf)
+    )
+  )
+
+
+##########################################################
+##      Instance Desenvolvimento Oracle 11.2.0.2.0      ##
+##########################################################
+
+DEV11 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.90)(PORT = 1150))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = dev11)
+    )
+  )
+
+
+##########################################################
+##      Instance Desenvolvimento Oracle 11.2.0.2.0      ##
+##########################################################
+
+DEV11UTF =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.90)(PORT = 1152))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = dev11utf)
+    )
+  )
+
+
+##########################################################
+##        Instance de Evolução Oracle 11.2.0.3.0        ##
+##########################################################
+
+EVOLD11UTF =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.100)(PORT = 1152))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = EVOLD11UTF)
+    )
+  )
+
+
+##########################################################
+##        Instance de Evolução Oracle 11.2.0.3.0        ##
+##########################################################
+
+EVOLT11UTF =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.100)(PORT = 1150))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = EVOLT11UTF)
+    )
+  )
+
+
+##########################################################
+##       Instance de Simulacao Oracle 9.2.0.8.0         ##
+##########################################################
+
+IFSSIMUL =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.123)(PORT = 1552))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ifssimul)
+    )
+  )
+
+
+##########################################################
+##        Instance de Teste IFS Oracle 9.2.0.8.0        ##
+##########################################################
+
+IFSTESTE =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.123)(PORT = 1550))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ifsteste)
+    )
+  )  
+
+
+##########################################################
+##      Instance do SAP Mercedes Oracle 11.2.0.3.0      ##
+##########################################################
+
+ME1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)(HOST = 192.168.23.14)(PORT = 1527)
+      )
+    )
+    (CONNECT_DATA=(SID = ME1)
+    )
+  )
+
+
+##########################################################
+##         Instance do Zabbix Oracle 10.2.0.4.0         ##
+##########################################################
+
+MONITOR01 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.60.110)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = MONITOR01)
+    )
+  )
+
+
+##########################################################
+##      Instance do SAP Mercedes Oracle 11.2.0.3.0      ##
+##########################################################
+
+MP1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)(HOST = 192.168.23.13)(PORT = 1527)
+      )
+    )
+    (CONNECT_DATA=(SID = MP1)
+    )
+  )
+
+
+##########################################################
+##    Instance Tedesco Next - HML Oracle 11.2.0.2.0     ##
+##########################################################
+
+NEXTHML2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)(HOST = 192.168.11.155)(PORT = 1521)
+      )
+    )
+    (CONNECT_DATA=(SID = NEXTHML2)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Produção Oracle 11.2.0.2.0     ##
+##########################################################
+
+ORA11P01 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.52)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA11P01)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Produção Oracle 11.2.0.2.0	##
+##########################################################
+
+ORA11P02 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.32)(PORT = 1511))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA11P02)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Produção Oracle 11.2.0.2.0     ##
+##########################################################
+
+ORA11P03 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.69)(PORT = 1511))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA11P03)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Produção Oracle 11.2.0.2.0     ##
+##########################################################
+
+ORA11P04 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.91)(PORT = 1511))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA11P04)
+    )
+  )
+
+##########################################################
+##    Instance Hosting - Produção Oracle 11.2.0.2.0     ##
+##########################################################
+
+ORA11P05 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.88)(PORT = 1511))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA11P05)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Produção Oracle 11.2.0.2.0	##
+##########################################################
+
+ORA11P08 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.32)(PORT = 1511))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA11P08)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Projetos Oracle 11.2.0.2.0	##
+##########################################################
+
+ORA11PROJ =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.34)(PORT = 1511))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11PROJ)
+    )
+  )
+
+
+##########################################################
+##Instance Hosting - Projetos AL32UTF8 Oracle 11.2.0.2.0##
+##########################################################
+
+ORA11PROJAL32 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.34)(PORT = 1168))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11PROJAL32)
+    )
+  )
+
+
+##########################################################
+##  Instance Hosting - Projetos UTF8 Oracle 11.2.0.2.0  ##
+##########################################################
+
+ORA11PROJUTF =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.34)(PORT = 1166))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11PROJUTF)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Qualidade Oracle 11.2.0.2.0    ##
+##########################################################
+
+ORA11Q01 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.34)(PORT = 1511))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA11Q01)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Qualidade Oracle 11.2.0.2.0	##
+##########################################################
+
+ORA11Q02 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.34)(PORT = 1511))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11Q02)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Qualidade Oracle 11.2.0.2.0	##
+##########################################################
+
+ORA11Q03 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.34)(PORT = 1154))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11Q03)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Qualidade Oracle 11.2.0.2.0	##
+##########################################################
+
+ORA11Q04 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.34)(PORT = 1511))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11Q04)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Qualidade Oracle 11.2.0.2.0	##
+##########################################################
+
+ORA11Q05 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.34)(PORT = 1511))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11Q05)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Qualidade Oracle 11.2.0.2.0	##
+##########################################################
+
+ORA11Q08 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.34)(PORT = 1511))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = ORA11Q08)
+    )
+  )
+
+
+##########################################################
+##    Instance Tedesco - Produção Oracle 11.2.0.1.0	##
+##########################################################
+
+ORCL11G1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.11.144)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCL11G1)
+    )
+  )
+
+
+##########################################################
+## Instance Tedesco - Desenvolvimento Oracle 10.2.0.1.0	##
+##########################################################
+
+ORCLDES=
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS=(PROTOCOL=TCP)(HOST=10.197.24.95)(PORT=1521))
+    )
+    (CONNECT_DATA= 
+      (SERVICE_NAME=ORCLDES)
+    )
+  )
+
+
+##########################################################
+## Instance Tedesco - Desenvolvimento Oracle 11.2.0.1.0	##
+##########################################################
+
+ORCLDES2=
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS=(PROTOCOL=TCP)(HOST=10.197.24.95)(PORT=1521))
+    )
+    (CONNECT_DATA= 
+      (SERVICE_NAME=ORCLDES2)
+    )
+  )
+
+
+##########################################################
+## Instance Tedesco - Desenvolvimento Oracle 11.2.0.1.0	##
+##########################################################
+
+ORCLDES3=
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS=(PROTOCOL=TCP)(HOST=10.197.24.95)(PORT=1521))
+    )
+    (CONNECT_DATA= 
+      (SERVICE_NAME=ORCLDES3)
+    )
+  )
+
+
+##########################################################
+##   Instance Tedesco Webfull - HML Oracle 10.2.0.1.0   ##
+##########################################################
+
+ORCLHML =
+  (DESCRIPTION =
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)(HOST = 192.168.11.153)(PORT = 1521)
+      )
+    )
+    (CONNECT_DATA=(SID = ORCLHML)
+    )
+  )
+
+
+##########################################################
+##   Instance Tedesco Webfull - HML Oracle 11.2.0.1.0   ##
+##########################################################
+
+ORCLHML2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)(HOST = 192.168.11.153)(PORT = 1521)
+      )
+    )
+    (CONNECT_DATA=(SID = ORCLHML2)
+    )
+  )
+
+
+##########################################################
+##   Instance Tedesco Webfull - HML Oracle 11.2.0.1.0   ##
+##########################################################
+
+ORCLHML3 =
+  (DESCRIPTION =
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)(HOST = 192.168.11.153)(PORT = 1521)
+      )
+    )
+    (CONNECT_DATA=(SID = ORCLHML3)
+    )
+  )
+
+
+##########################################################
+##    Instance Tedesco - Produção Oracle 10.2.0.1.0	##
+##########################################################
+
+ORCLPRD2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.11.144)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCLPRD2)
+    )
+  )
+
+
+##########################################################
+##    Instance Tedesco - Produção Oracle 10.2.0.1.0	##
+##########################################################
+
+ORCLPRD3 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.11.144)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCLPRD3)
+    )
+  )
+
+
+##########################################################
+##    Instance Tedesco - Produção Oracle 10.2.0.1.0	##
+##########################################################
+
+ORCLPRD4 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.11.144)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCLPRD4)
+    )
+  )
+
+
+##########################################################
+##    Instance Tedesco - Produção Oracle 10.2.0.1.0	##
+##########################################################
+
+ORCLPRD5 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.11.144)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCLPRD5)
+    )
+  )
+
+
+##########################################################
+##    Instance Tedesco - Suporte Oracle 10.2.0.1.0	##
+##########################################################
+
+ORCLSUP =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.28)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCLSUP)
+    )
+  )
+
+
+##########################################################
+##    Instance Tedesco - Suporte Oracle 11.2.0.1.0	##
+##########################################################
+
+ORCLSUP2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.28)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SID = ORCLSUP2)
+    )
+  )
+
+
+##########################################################
+## Instance Walmart Eagan - Produção Oracle 11.2.0.3.0  ##
+##########################################################
+
+ORP680A1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST = 
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.215.47.11)(PORT = 1521))
+    )
+    (CONNECT_DATA = 
+      (SID = orp680a1)
+    )
+  )
+
+
+##########################################################
+## Instance Walmart Eagan - Qualidade Oracle 11.2.0.3.0 ##
+##########################################################
+
+ORQ680A1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST = 
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.204.72.237)(PORT = 1521))
+    )
+    (CONNECT_DATA = 
+      (SID = orq680a1)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Produção Oracle 9.2.0.6.0	##
+##########################################################
+
+PROD03 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.10)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = PROD03.SFW.COM.BR)
+    )
+  )
+
+
+##########################################################
+##    Instance Hosting - Produção Oracle 10.2.0.3.0	##
+##########################################################
+
+PROD08 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.28)(PORT = 1510))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = PROD08)
+    )
+  )
+
+
+##########################################################
+##Instance Hosting - Quali Caterpillar Oracle 11.2.0.2.0##
+##########################################################
+
+Q05CAT =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.34)(PORT = 1511))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = Q05CAT)
+    )
+  )
+
+##########################################################
+##     Instance Sistemas Internos Oracle 9.2.0.8.0      ##
+##########################################################
+
+SFW_INTERNOS =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.11)(PORT = 1523))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = SFWINT.SFW.COM.BR)
+    )
+  )
+
+
+##########################################################
+##        Instance de Serviços Oracle 10.2.0.4.0        ##
+##########################################################
+
+SRV10 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.111)(PORT = 1050))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = SRV10)
+    )
+  )
+
+
+##########################################################
+##        Instance de Serviços Oracle 11.2.0.4.0        ##
+##########################################################
+
+SRV11 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.111)(PORT = 1150))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = SRV11)
+    )
+  )
+
+
+##########################################################
+##        Instance de Serviços Oracle 11.2.0.4.0        ##
+##########################################################
+
+SRV11UTF =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.111)(PORT = 1152))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = SRV11UTF)
+    )
+  )
+
+
+##########################################################
+##         Instance de Suporte Oracle 9.2.0.8.0         ##
+##########################################################
+
+SUPORTE9 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.118)(PORT = 1550))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = suporte9)
+    )
+  )
+
+
+##########################################################
+##        Instance de Suporte Oracle 11.2.0.3.0         ##
+##########################################################
+
+SUPORTE11 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.118)(PORT = 1150))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = suport11)
+    )
+  )
+
+
+##########################################################
+##          Instance de Teste Oracle 9.2.0.4.0          ##
+##########################################################
+
+TESTE02 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.110)(PORT = 1550))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = teste02)
+    )
+  )
+
+
+##########################################################
+##          Instance de Teste Oracle 10.2.0.3.0         ##
+##########################################################
+
+TESTE10 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.110)(PORT = 1050))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = TESTE10)
+    )
+  )
+
+
+##########################################################
+##          Instance de Teste Oracle 9.2.0.8.0          ##
+##########################################################
+
+TST9 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.115)(PORT = 1550))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TST9)
+    )
+  )
+
+
+##########################################################
+##         Instance de Teste Oracle 10.2.0.4.0          ##
+##########################################################
+
+TST10 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.115)(PORT = 1050))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TST10)
+    )
+  )
+
+
+##########################################################
+##         Instance de Teste Oracle 11.2.0.2.0          ##
+##########################################################
+
+TST11 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.115)(PORT = 1150))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TST11)
+    )
+  )
+
+
+##########################################################
+##         Instance de Teste Oracle 11.2.0.2.0          ##
+##########################################################
+
+TST11UTF =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.115)(PORT = 1152))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = TST11UTF)
+    )
+  )
+
+
+##########################################################
+##Instance da Universidade Corporativa Oracle 11.2.0.3.0##
+##########################################################
+
+UCS =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.42)(PORT = 1530))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = UCS)
+    )
+  )
+
+##########################################################
+##           Instance do EBS Oracle 9.2.0.6.0           ##
+##########################################################
+
+VIS =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.93)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = VIS)
+    )
+  )
+
+
+##########################################################
+##           Instance do EBS Oracle 10.2.0.3.0          ##
+##########################################################
+
+VIS12 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.82)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = VIS12)
+    )
+  )
+
+
+##########################################################
+##        Instance XE (Galani) Oracle 11.2.0.2.0        ##
+##########################################################
+
+XE =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.109)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = XE)
+    )
+  )
+
+
+##########################################################
+##       Instance do Zabbix XE Oracle 11.2.0.2.0        ##
+##########################################################
+
+ZABBIXDB =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.11.27)(PORT = 1150))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = xE)
+    )
+  )
+
+##########################################################
+##                  MASTERSAF E-SOCIAL                  ##
+##########################################################
+MSFQ-ORA01 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.91)(PORT = 1156))
+    )
+    (CONNECT_DATA =
+      (SID = MSFQ-ORA01)
+    )
+  )
+
+MSFP-ORA01 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.91)(PORT = 1154))
+    )
+    (CONNECT_DATA =
+      (SID = MSFP-ORA01)
+    )
+  )
+##########################################################
+##                  MASTERSAF E-SOCIAL                  ##
+##########################################################
+ORACMR = (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.69.143)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = oracmr)))
+
+
+#################################
+## NOTE - CM	       ##
+#################################
+ORACMNOTE =(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = U0180506-TPL-A.ten.thomsonreuters.com)
+(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = oracmnote)))
+
+
+#################################
+## ORA12UTF8TST 	       ##
+#################################
+ORA12UTF8TST =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.101)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA12UTF8TST)
+    )
+  )
+##################################
+ORA11MC = 
+  (DESCRIPTION =  
+    (ADDRESS =  
+      (PROTOCOL = TCP) 
+      (HOST = 10.197.67.97) 
+      (PORT = 1521) 
+    ) 
+    (CONNECT_DATA =  
+      (SERVER = DEDICATED) 
+      (SERVICE_NAME = ORA11MC) 
+    ) 
+  )
+#################################
+## BASE - ORACLE12	       ##
+#################################
+ORA12UTF8DEV_OLD=(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.101)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = ORA12UTF8TST)))
+#################################
+##########################################################
+##     Instance DESENVOLVIMENTO Oracle 12.1.0.2.0       ##
+##                   UTF8                               ##
+##########################################################
+
+ORA12UTF8DEV =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.98)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA12UTF8DEV)
+    )
+)
+
+#################################
+## BASE - PROJ01	       ##
+#################################
+PROJ01=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.136)(PORT = 1511))) (SERVER = DEDICATED) (CONNECT_DATA = (SERVICE_NAME = PROJ01)))
+################################# U0180436-TPD-A.ten.thomsonreuters.com
+CEV09 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 127.0.0.112)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = cev09)
+    )
+  )
+##################################################
+DBC =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 127.0.0.112)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = LECR)
+    )
+  )
+##################################################
+DEV2G =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 127.0.0.112)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = DEV2G)
+    )
+  )
+##################################################
+DBHE =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = U0180458-TPD-B.ten.thomsonreuters.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = dbhe)
+    )
+  )
+################################################## U0180500-TPD-A.ten.thomsonreuters.com
+SIDNEY =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = U0180500-TPD-A.ten.thomsonreuters.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = SIDAO)
+    )
+  )
+##############################################
+DANIEL =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.74.175)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORCL)
+    )
+  )
+##############################################
+ORCL10 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.74.173)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = orcl10.197.74.173)
+    )
+##############################################
+ORA11TST =(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.91)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = ORA11TST)))
+  )
+##############################
+ORA11UTF8DEV =(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.102)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = ORA11UTF8DEV)))
+#######################################
+bmwutf8 = =(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.94)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = bmwutf8)))
+###############################################
+
+SOUZACRUZ_PRD =   (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.186)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = BATDBP)
+    )
+  )
+##############################################
+ORA11UTF8TST=(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.91)(PORT = 1522))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = ORA11UTF8TST)))
+############################################
+ORA11P04_HIST =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.188)(PORT = 1511))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA11P04)
+    )
+  )
+
+ALESSANDRO=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=U0180171-TPL-B.ten.thomsonreuters.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=ORCL)))
+SFWISSD
+
+######
+ORA11P06 =  (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.157)(PORT = 1521)) (CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = ORA11P06)))
+
+
+ORA11Q06 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.158)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA11Q06)
+    )
+  )
+
+SUPORTE10 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.61.8)(PORT = 1510))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = SUPORT10.SFW.COM.BR)
+    )
+  )
+
+HOMOL11=
+   (DESCRIPTION =
+     (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.61.7)(PORT = 1511))
+     (CONNECT_DATA =
+       (SERVER = DEDICATED)
+       (SERVICE_NAME = HOMOL11)
+     )
+   )
+
+##########################################################
+##                  VOLVO HOSTING - Qualidade           ##
+##########################################################
+VLVQA =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.66.138)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = VLVQA)
+    )
+  )
+
+DEMOLATAM =(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST =pln-gtmdb01-a.amers2.cis.trcloud)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = dbaai.amers2.cis.trcloud)))
+
+TESTE =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = CRISTHIAN)
+    )
+)
+
+listener_cris = (ADDRESS = (PROTOCOL = TCP) (HOST = localhost) (PORT = 1521))
+
+
+CRISTHIAN =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = CRISTHIAN)
+    )
+  )
+
+
+ONESOURCE =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ONESOURCE)
+    )
+  )
+
+
+ORA11WE8DMP   =
+(DESCRIPTION =
+   (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.87)(PORT = 1521))
+   (CONNECT_DATA =
+     (SERVER = DEDICATED)
+     (SERVICE_NAME = ORA11WE8DMP  )
+   )
+)  
+
+AMBRADEV =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = U0180500-TPD-A.ten.thomsonreuters.com)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = AMBRADEV)
+    )
+  )
+
+PeaPod_Proj =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS=(PROTOCOL=tcp)(HOST=c580arggtmodb.int.thomsonreuters.com)(PORT=1521))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = orq1128a.int.thomsonreuters.com)
+    )
+)
+
+ORA12UTF8DMP =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.85)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA12UTF8DMP)
+    )
+)
+
+###### QA Q01 01 ###### 
+peapod_Q01_01 =
+  (DESCRIPTION =
+               (ADDRESS_LIST =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = c672uhagtmdbq.int.thomsonreuters.com)(PORT = 1521))
+               )
+               (CONNECT_DATA =
+      (SERVICE_NAME = pdbq0285_1.int.thomsonreuters.com)
+    )
+  )
+
+###### PROD P01 01 ###### 
+peapod_P01_01 =
+  (DESCRIPTION =
+               (ADDRESS_LIST =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = c884xswgtmdbp.int.thomsonreuters.com)(PORT = 1521))
+               )
+               (CONNECT_DATA =
+      (SERVICE_NAME = pdbp0285_1.int.thomsonreuters.com)
+    )
+  )
+
+###### QA Q01 02 ###### 
+peapod_Q01_02 =
+  (DESCRIPTION =
+               (ADDRESS_LIST =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = c451ggxgtmdbq.int.thomsonreuters.com)(PORT = 1521))
+               )
+               (CONNECT_DATA =
+      (SERVICE_NAME = pdbq0286_1.int.thomsonreuters.com)
+    )
+  )
+
+###### PROD P01 02 ###### 
+peapod_P01_02 =
+  (DESCRIPTION =
+               (ADDRESS_LIST =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = c166xdtgtmdbp.int.thomsonreuters.com)(PORT = 1521))
+               )
+               (CONNECT_DATA =
+      (SERVICE_NAME = pdbp0286_1.int.thomsonreuters.com)
+    )
+  )
+
+###### QA Q01 03 ###### 
+peapod_Q01_03 =
+  (DESCRIPTION =
+               (ADDRESS_LIST =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = c166evugtmdbq.int.thomsonreuters.com)(PORT = 1521))
+               )
+               (CONNECT_DATA =
+      (SERVICE_NAME = pdbq0287_1.int.thomsonreuters.com)
+    )
+  )
+
+###### PROD P01 03 ###### 
+peapod_P01_03 =
+  (DESCRIPTION =
+               (ADDRESS_LIST =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = c843gwzgtmdbp.int.thomsonreuters.com)(PORT = 1521))
+               )
+               (CONNECT_DATA =
+      (SERVICE_NAME = pdbp0287_1.int.thomsonreuters.com)
+    )
+  )
+
+###### Prod PEAPOD BW ######
+PeaPod_BW_Prod =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS=(PROTOCOL=tcp)(HOST=C861QCNGTMDBP.int.thomsonreuters.com)(PORT=1521))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = pdbp0271_1.int.thomsonreuters.com)
+    )
+  )
+
+###### QA PEAPOD BW ######
+PeaPod_BW_QA =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS=(PROTOCOL=tcp)(HOST=C395JMQGTMDBQ.int.thomsonreuters.com)(PORT=1521))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = pdbq0271_1.int.thomsonreuters.com)
+    )
+  )
+
+###### QA PEAPOD VCE SERVICE_NAME ######
+PeaPod_VCE_QA =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS=(PROTOCOL=tcp)(HOST=C207SSPGTMDBJ.int.thomsonreuters.com)(PORT=1521))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = pdbq0272_1.int.thomsonreuters.com)
+   )
+  )
+
+###### Prod PEAPOD VCE ######
+PeaPod_VCE_Prod =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS=(PROTOCOL=tcp)(HOST=C600nyqGTMDBp.int.thomsonreuters.com)(PORT=1521))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = pdbp0272_1.int.thomsonreuters.com)
+    )
+  )
+
+###### QA PEAPOD BRAZIL ######
+PeaPod_QA =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS=(PROTOCOL=tcp)(HOST=c362bxrgtmodb.int.thomsonreuters.com)(PORT=1521))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = orq1079a.int.thomsonreuters.com)
+#      (SID = orq1079a1)
+    )
+  )
+
+PeaPod_QA_SID =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS=(PROTOCOL=tcp)(HOST=c362bxrgtmodb.int.thomsonreuters.com)(PORT=1521))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SID = orq1079a1)
+    )
+  )
+
+###### Proj PEAPOD BRAZIL ######
+PeaPod_Proj =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS=(PROTOCOL=tcp)(HOST=c580arggtmodb.int.thomsonreuters.com)(PORT=1521))
+    )
+    (SERVER = DEDICATED)
+    (CONNECT_DATA =
+      (SERVICE_NAME = orq1128a.int.thomsonreuters.com)
+    )
+  )
+
+peapod_P01_01 =
+  (DESCRIPTION =
+               (ADDRESS_LIST =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = c884xswgtmdbp.int.thomsonreuters.com)(PORT = 1521))
+               )
+               (CONNECT_DATA =
+      (SERVICE_NAME = pdbp0285_1.int.thomsonreuters.com)
+    )
+  )
+
+
+PeaPod_PROD = (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = C901HGFGTMDBP.int.thomsonreuters.com)(PORT = 1521))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = orp1079a.int.thomsonreuters.com)))
+
+ORA12WE8QA =
+
+  (DESCRIPTION =
+
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.98)(PORT = 1521))
+
+    (CONNECT_DATA =
+
+      (SERVER = DEDICATED)
+
+      (SERVICE_NAME = ORA12WE8QA)
+
+    )
+
+)
+
+ora12utf8qa =
+
+  (DESCRIPTION =
+
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.99)(PORT = 1521))
+
+    (CONNECT_DATA =
+
+      (SERVER = DEDICATED)
+
+      (SERVICE_NAME = ora12utf8qa)
+
+    )
+
+)
+
+##########################################################
+##            Instance HM Oracle 12.2.0.1.0             ##
+##                   UTF8                               ##
+##########################################################
+
+ORA12UTF8HM =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.197.67.99)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ORA12UTF8HM)
+    )
+)
+
+sbx_amers =   (DESCRIPTION =     (ADDRESS = (PROTOCOL = TCP)(HOST = c642jze.int.thomsonreuters.com)(PORT = 1521))     (CONNECT_DATA =         (SERVER = DEDICATED)(SERVICE_NAME = TGQ04A.int.thomsonreuters.com))   )
+

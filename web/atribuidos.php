@@ -51,9 +51,21 @@ if(!isset($_SESSION["userid"])){
 
         <button class="btn btn-primary" id="btnAtribuidos">Equipamentos Atribuidos</button>
         <button class="btn btn-warning" id="btnHistorico">Histórico</button>
-        <?php if(isset($_SESSION["userid"]) && $_SESSION["userid"] == "adm"){ ?>
+        <?php if(isset($_SESSION["adm"]) && $_SESSION["adm"] == "1" || isset($_SESSION["gestor"]) && $_SESSION["gestor"] == "1" ){ ?>
 
-        <button class="btn btn-danger" id="btnUsuarios">Usuários</button>
+            <button class="btn btn-danger" id="btnUsuarios">Usuários</button>
+
+        <?php } ?>
+
+        <?php if(isset($_SESSION["gestor"]) && $_SESSION["gestor"] == "1" ){ ?>
+            <br>
+            <br>
+            <div class="form-group">
+                <label for="sel1">Selecione um grupo:</label>
+                <select class="form-control" id="select_grupo">
+                    <option value="0"></option>
+                </select>
+            </div>
 
         <?php } ?>
 

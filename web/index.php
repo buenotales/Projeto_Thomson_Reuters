@@ -52,9 +52,9 @@
                     <div class="card-body">
                         <form action="php/acao.php" method="POST">
                             <div class="form-group row">
-                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Endereço de E-Mail:</label>
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Usuário:</label>
                                 <div class="col-md-6">
-                                    <input type="email" name="email" id="email_address" class="form-control" name="email-address" required autofocus>
+                                    <input type="text" name="email" id="email_address" class="form-control" name="email-address" required autofocus>
                                 </div>
                             </div>
 

@@ -5,6 +5,25 @@ $("#atribuidos").ready(function(){
     
     getEquipamentosAtribuidos(id_user);
 });
+
+$("#select_grupo").ready(function(){
+
+    let id_user = $("#id-user").html();    
+    
+    getGrupos(id_user);
+});
+
+$("#select_grupo").change(function(){
+
+    let id_grupo = $("#select_grupo").val();
+
+    if(id_grupo == 0){
+        alert("Selecione um grupo para trabalhar.");
+    }
+
+    getUsuarios(id_grupo);
+});
+
 $("#btnAtribuidos").click(function(){
         
     $("#infoAtivo").fadeOut(10);
@@ -29,7 +48,13 @@ $("#btnUsuarios").click(function(){
 
     $("#usuarios > tbody").empty();
 
-    getUsuarios();
+    let id_grupo = $("#select_grupo").val();
+
+    if(id_grupo == 0){
+        alert("Selecione um grupo para trabalhar.");
+    }
+
+    getUsuarios(id_grupo);
 
     $("#usuarios").fadeIn(800);
 
@@ -89,6 +114,41 @@ $(document).on('click', '#linhaUser', function(e) {
     $("#infoUser").fadeIn(800);
 
 });
+
+
+function getGrupos(idUser){
+
+
+
+    $.ajax({
+        method: "POST",
+        url: "php/acao.php",
+        data: { action: "select", tipo: "grupos", id: idUser},
+        dataType: "json",
+        beforeSend : function(){
+            //alert("Consultando...");
+        }
+    })
+    .done(function( ret, textStatus, jqXHR ) {
+
+        for(let x = 0; x < ret.length; x++){
+
+            $("#select_grupo").append("<option value="+ ret[x].id +">"+ ret[x].nome +"</option>");
+
+        }
+        console.log(ret);
+        
+    })
+    .fail(function( ret, textStatus, jqXHR ) {
+        
+        console.log(ret);
+    })
+    .always(function( ret, textStatus, jqXHR ){
+        
+        //console.log(ret);
+    });
+
+}
 
 function getInfoAtivo(ativo){
 
@@ -202,12 +262,12 @@ function getEquipamentosAtribuidos(idUser){
 
 }
 
-function getUsuarios(){
+function getUsuarios(id_grupo){
 
     $.ajax({
         method: "POST",
         url: "php/acao.php",
-        data: { action: "select", tipo: "usuarios"},
+        data: { action: "select", tipo: "usuarios", id_grupo: id_grupo},
         dataType: "json",
         beforeSend : function(){
             //alert("Consultando...");
@@ -215,6 +275,7 @@ function getUsuarios(){
     })
     .done(function( ret, textStatus, jqXHR ) {
         
+        $("#usuarios > tbody").empty();
 
         for(let x = 0; x < ret.length; x++){
 

@@ -253,8 +253,6 @@ function login($email, $senha){
                 while (oci_fetch($stid)) {
     
                     if(oci_result($stid, 'ID') != ''){
-
-                        echo oci_result($stid1, 'ID');
     
                         $_SESSION["userid"] = oci_result($stid, 'ID');
                         $_SESSION["gestor"] = 1;
@@ -262,7 +260,28 @@ function login($email, $senha){
 
                     }else{
     
-                        return false;
+                        $stid2 = oci_parse($ora_conexao, "SELECT id, nome FROM t_usuarios WHERE usuario = :email and senha = :senha and ativo = 1 AND logar = 1");
+                        oci_bind_by_name($stid2, ":email", $email);
+                        oci_bind_by_name($stid2, ":senha", $senha);
+                        oci_execute($stid2);
+
+                        while (oci_fetch($stid2)) {
+            
+                            if(oci_result($stid2, 'ID') != ''){
+            
+                                $_SESSION["userid"] = oci_result($stid2, 'ID');
+                                $_SESSION["usernome"] = oci_result($stid2, 'NOME');
+
+                            }else{
+            
+                                return false;
+            
+            
+                            }
+            
+                            $x++;
+            
+                        }
     
     
                     }
